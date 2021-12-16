@@ -1,63 +1,90 @@
 <!-- SECCION PRODUCTOS -->
 <!DOCTYPE html> 
 <html lang="es"> 
-    <head> <!-- ENCABEZADO -->
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0"> <!-- META ETIQUETA: RESPOSIVE -->   
         <meta name="keywords" content="gastronomia, arepas, saludable, organicos"> <!-- META ETIQUETA : KEYWORDS -->
         <meta name="description" content="Alea productos congelados. Arepas a base de plantas, cereales y vegetales.Tienda de alimentos naturales."> <!-- META ETIQUETA : DESCRIPTION -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!-- ENLACE A BOOTSTRAP -->
-        <link rel="icon" href="https://drive.google.com/uc?id=12HO74xqpOe0vSVN9Hy10Ezi6tnUhh7uz" type="imagen/png" sizes="16x16"> <!-- LOGO DE LA PESTAÑA -->
+        <link rel="icon" href="https://drive.google.com/uc?id=1G3DulsLG96nHQWa8aMDCGN-P42hR1uwb" type="imagen/png" sizes="16x16"> <!-- LOGO DE LA PESTAÑA -->
         <link rel="stylesheet" href="../css/style.css"> <!-- ENLACE EXTERNO A CSS -->
-        <script src="https://kit.fontawesome.com/26249973dc.js" crossorigin="anonymous"></script><!-- ENLACE EXTERNO A FONTAWESOME ICONOS-->
-        <title> Alea -  PRODUCTOS </title> <!-- TITULO DE LA PESTAÑA -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!-- BOOTSTRAP -->
+        <script src="https://kit.fontawesome.com/26249973dc.js" crossorigin="anonymous"></script> <!-- ENLACE A ICONOS -->
+        <title> Alea Health Food Store </title> <!-- TITULO DE LA PESTAÑA -->
     </head>
     <body>
-        <header>
-            <img class="logo" src="https://drive.google.com/uc?id=12HO74xqpOe0vSVN9Hy10Ezi6tnUhh7uz"  alt="logoalea"> 
+        <header><!-- LOGO + MENU PRINCIPAL -->
+            <a href= "../index.html"><img class="logo" src="https://drive.google.com/uc?id=12HO74xqpOe0vSVN9Hy10Ezi6tnUhh7uz"  alt="logoalea"></a> <!-- LOGO -->
             <input type="checkbox" id="check"> 
             <label for="check" class="unhide-menu"> &#8801 </label>
             <nav class="menu">
-                <a href= "../index.html"> INICIO </a> </li><!-- ENLACE A INICIO -->
-                <a href= "nosotros.html"> NOSOTROS </a> </li> <!-- ENLACE A NOSOTROS -->
-                <a href= "#"> PRODUCTOS</a> </li> <!-- ENLACE A PRODUCTOS -->
-                <a href= "recetas.html"> RECETAS </a> </li> <!-- ENLACE A RECETAS -->
-                <a href= "contacto.html"> CONTACTO </a> </li> <!-- ENLACE A CONTACTO -->
+                <a href= "../index.html"> INICIO </a><!-- ENLACE A INICIO -->
+                <a href= "nosotros.html"> NOSOTROS </a> <!-- ENLACE A NOSOTROS -->
+                <a href= "#"> PRODUCTOS</a>  <!-- ENLACE A PRODUCTOS -->
+                <a href= "recetas.html"> RECETAS </a>  <!-- ENLACE A RECETAS -->
+                <a href= "contacto.html"> CONTACTO </a> <!-- ENLACE A CONTACTO -->
                 <label for="check" class="hide-menu"> &#215 </label>  
             </nav>
         </header> 
         <main> 
-            <div class="slider">
-                <ul>
-                    <li><img src="https://drive.google.com/uc?id=1kdN9vyQ5dnDQ_1AvVFf_MVhnwpnTA7Vt" alt="slider-zanahoria"></li>
-                    <li><img src="https://drive.google.com/uc?id=1yYZwK40S9ejT5r0m81Nc8v3N06gX-UGu" alt="slider-remolacha"></li>
-                    <li><img src="https://drive.google.com/uc?id=17jkC-U-esAsgHJrhN8nZu36C8uAi_Gny" alt="slider-cereales"></li>
-                    <li><img src="https://drive.google.com/uc?id=1lKZ_YXW5bWpO3AmlcWMje8355Iy0vieE" alt="slider-zucchini"></li>
-                </ul>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="https://drive.google.com/uc?id=1bXj5EyqOQN5HDmb7MQ0ZVK55mIulmuRE" class="d-block w-100" alt="slider-zanahoria">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p> Una propuesta clásica y popular realizada a la perfección. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://drive.google.com/uc?id=1x4XQZUwKP-Brkj1AXxnVHUibaBJnA2y1" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Exótico por dentro y por fuera, el medallón de remolacha se transformó en la revelación de nuestro porfolio.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://drive.google.com/uc?id=1rHXt_qkBUkT0tC6o9EsJXQXMJT7ZfoHu" class="d-block w-100" alt="slider-cereales">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p> Este medallón es muy versátil, se puede combinar con cualquier plato aumentando notablemente sus nutrientes.</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <section id="icono">
-                <div id="contenido-icono">
+            <section id="iconos"> <!-- ICONOS DE INFORMACIÓN -->
+                <div id="contenido-iconos">
                     <div>
-                        <img src="https://drive.google.com/uc?id=11RGtXr1s4LWvwZd_u8J2RZPVn_akWPV0" alt="icono-organico">
+                        <img src="https://drive.google.com/uc?id=1xha5qe6PPvo8ZB6Yaa_O2BfaW-1vN58m" alt="icono-organico">
                         <h4> ORGANICO </h4>
                         <p> Nuestra selección de vegetales es orgánica, de la huerta a nuestra cocina.</p>
                     </div>
                     <div>
-                        <img src="https://drive.google.com/uc?id=1v2QBwAjM6ALkw_b4C8ieWykI1CAcGdUL" alt="icono-cruelty">
+                        <img src="https://drive.google.com/uc?id=1-udJJ7-gbBZPlGpg4HPKDf3aZtVFRGId" alt="icono-cruelty">
                         <h4> VEGETAL </h4>
                         <p> Sin conservantes, colorantes artificiales, ni productos de origen animal.</p>
                     </div>
                     <div>
-                        <img src="https://drive.google.com/uc?id=1aEqIm7_Gp7VF6YNKsVhfUnu5EwiJXP-R" alt="icono-preservative">
+                        <img src="https://drive.google.com//uc?id=1oAwgZPS8EtuyuoYoIi3PgIOxt4ply2Pp" alt="icono-preservative">
                         <h4> BIODEGRADABLE </h4>
                         <p> Nuestro empaque de fécula de maíz es biodegradable, se degrada por completo.</p>
                     </div>
                 </div>
             </section>
-            <div class="container-productos">
+            <div class="container-productos"> <!-- PRESENTACIÓN DE PRODUCTOS -->
                 <div class="card">
                     <figure>
-                        <img src="https://drive.google.com/uc?id=1MQIdnPcZrvDF9xOk7m3EjLJqYouUD7NQ" alt="arepa-remolacha">
+                        <img src="https://drive.google.com/uc?id=1tNMasSmU6jWilEyNzZSTcBWKGSvI1ET8" alt="arepa-remolacha">
                     </figure>
                     <div class="contenido">
                         <h3>REMOLACHA</h3>
@@ -67,7 +94,7 @@
                 </div>
                 <div class="card">
                     <figure>
-                        <img src="https://drive.google.com/uc?id=1mIlx4EjhKNRbJjWg5Mk_0Kdz9Tp_cLi0" alt="arepa-zanahoria">
+                        <img src="https://drive.google.com/uc?id=1r5S_CNaUnQF_VCk94oy4dD5VPtLT1lQw" alt="arepa-zanahoria">
                     </figure>
                     <div class="contenido">
                         <h3>ZANAHORIA</h3>
@@ -77,7 +104,7 @@
                 </div>
                 <div class="card">
                         <figure>
-                            <img src="https://drive.google.com/uc?id=1T5rPlfz5EAWRC724nEAbVrcm92731vyo" alt="arepa-cereal">
+                            <img src="https://drive.google.com/uc?id=10gYOqLxiAEQt_8VpuyWMuIxEIISDvZki" alt="arepa-cereal">
                         </figure>
                         <div class="contenido">
                             <h3>CEREALES</h3>
@@ -86,21 +113,22 @@
                         </div>
                 </div>
             </div>
+            <a href="https://api.whatsapp.com/send/?phone=541126608361" class="btn-wsp" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
         </main>
         <footer> <!-- PIE DE PÁGINA --> 
             <div class="logotipo">
                 <img src="https://drive.google.com/uc?id=1B0l1lGYBfqWunoSQpDjQ90nQzw3ugUD7" width="100" height="50" alt="LogoAlea" ">
             </div>
-            <div class="sociales">
-                <a href="https://www.instagram.com/es.alea/" class="fab fa-instagram"></a>
-                <a href="https://api.whatsapp.com/send/?phone=541126608361&text&app_absent=0" class="fab fa-whatsapp"></a>
-            </div>
             <div class="contenedor">
-                <p class="copy"> &copy; 2021 <b> <a href="#"> Alea </a></b>- Todos los derechos reservados.</p>
+                <p class="copy"> &copy; 2021 <b> <a href="../index.html"> Alea </a></b>- Todos los derechos reservados.</p>
             </div>
             <div class="contenedor">
                 <p> Desarrollado por <a href= "https://www.linkedin.com/in/carla-nataly-perez-baa279118/"> <b>Nataly Perez</b></a> </p>
             </div>
         </footer>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </html>
